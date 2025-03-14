@@ -454,9 +454,9 @@
     </section>
 
     <section id="tour" style="background: url('https://raw.githubusercontent.com/TommyWhiteMusic/tommywhitemusic.github.io/main/Images/tour_image.jpg') center/cover no-repeat; position: relative; display: flex; align-items: center; justify-content: center; text-align: center; padding: 50px 20px; height: 100%;">
-        <div style="background: rgba(0,0,0,0.6); width: 100%; height: 100%; position: absolute; top: 0; left: 0;"></div>
-        <h2>TOUR</h2>
-        <div style="display: flex; flex-direction: column; align-items: center;">
+        <div style="background: rgba(0,0,0,0.6); width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 1;"></div>
+        <h2 style="max-width: 800px; margin: auto; line-height: 1.8; text-align: center; z-index: 2;">TOUR</h2>
+        <div style="display: flex; flex-direction: column; align-items: center; z-index: 2;">
             <span>•</span>
             <span>•</span>
             <span>•</span>
@@ -464,10 +464,10 @@
             <span>•</span>
             <span>•</span>
         </div>
-        <div class="tour-list">
+        <div class="tour-list" style="z-index: 2; text-align: center;">
             <div class="tour-item">
-                <div class="tour-location" style="font-size: 24px; letter-spacing: 4px; margin: 20px 0;"><strong>TBA</strong></div>
-                <div style="display: flex; flex-direction: column; align-items: center;">
+                <div class="tour-location" style="font-size: 24px; letter-spacing: 4px; margin: 20px 0; text-align: center;"><strong>TBA</strong></div>
+                <div style="display: flex; flex-direction: column; align-items: center; z-index: 2;">
                     <span>•</span>
                     <span>•</span>
                     <span>•</span>
